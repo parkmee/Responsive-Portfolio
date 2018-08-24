@@ -1,0 +1,220 @@
+html {
+    background-image: url(../images/qbkls.png);
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-color: #cccccc;
+    margin: 0px;
+}
+
+.nav_bar {
+    box-sizing: border-box;
+    width: 960px;
+    margin: auto;
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    padding: 20px;
+    margin: 0px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    padding: 30px 30px 28px 30px;
+    text-align: right;
+    max-width: 100%;
+    box-sizing: border-box;
+    width: 960px;
+    margin: auto;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: teal;
+}
+
+body {
+    margin: 0px auto 100px auto;
+    clear: both;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    margin: 20px auto 20px auto;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    height: auto;
+    box-sizing: border-box;
+    width: 960px;
+}
+
+p {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body_title {
+    color: #4aaaa5;
+    padding: 20px 20px 20px 0px;
+    margin: 0px 20px 0px 20px;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+}
+
+.bio_pic {
+    margin: 20px 20px 20px 20px;
+    float: left;
+    height: 150px;
+}
+
+.bio_text {
+    margin-left: 20px;
+    line-height: 1.6;
+    padding-right: 20px;
+}
+
+.footer {
+    background-color: #666666;
+    height: 40px;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    clear: both;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+}
+
+/*CSS unique to Contact Form*/
+.contact_title {
+    color: #4aaaa5;
+    padding: 20px 20px 20px 0px;
+    margin: 0px 20px 0px 20px;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+}
+
+form {
+    margin: 20px;
+    color: #777777;
+}
+
+input {
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+}
+
+.form_message {
+    height: 200px;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 5px 20px 5px 20px;
+    margin: 10px 0px 10px 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*CSS unique to Portfolio*/
+
+.row {
+    clear:both;
+    height: 315px;
+}
+
+.col {
+    width: 290px;
+    height: 290px;
+    object-fit: fill;
+    margin: 20px 0px 0px 20px;
+    display: inline-block;
+}
+
+.tile_label {
+    background-color: #4aaaa5;
+    position: relative;
+    top: -90px;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 980px) {
+    .nav_bar {
+        margin: 0px 20px 0px 20px;
+    }
+
+    nav {
+        padding-right: 60px;
+    }
+
+    .main {
+        width: 68%;
+        float: left;
+        margin-left: 20px;
+    }
+
+    .col {
+        box-sizing: border-box;
+        width: 290px;
+    }
+
+    form {
+        box-sizing: border-box;
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav_bar {
+        margin: 0px 20px 0px 20px;
+        width: 740px;
+    }
+
+    nav {
+        padding-right: 60px;
+    }
+
+    .main {
+        width: 95%;
+        float: left;
+        margin-left: 20px;
+    }
+
+    .col {
+        box-sizing: border-box;
+        width: 280px;
+    }
+
+    form {
+        box-sizing: border-box;
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+}
+
