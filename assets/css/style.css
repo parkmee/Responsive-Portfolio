@@ -115,7 +115,7 @@ form {
 }
 
 input {
-    width: 100%;
+    width: 98%;
     margin: 5px 0px 5px 0px;
     padding: 5px;
 }
@@ -132,21 +132,22 @@ button {
 }
 
 img {
-    max-width: 100%;
+    max-width: 290px;
+    height: 290px;
 }
 
 /*CSS unique to Portfolio*/
 
 .row {
     clear:both;
-    height: 315px;
+    height: auto;
 }
 
 .col {
     width: 290px;
     height: 290px;
     object-fit: fill;
-    margin: 20px 0px 0px 20px;
+    margin: 20px 10px 0px 30px;
     display: inline-block;
 }
 
@@ -159,11 +160,14 @@ img {
     padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    box-sizing: border-box;
+    width: 290px;
 }
 
 @media screen and (max-width: 980px) {
     .nav_bar {
         margin: 0px 20px 0px 20px;
+        width: 100%
     }
 
     nav {
@@ -171,7 +175,7 @@ img {
     }
 
     .main {
-        width: 68%;
+        width: 700px;
         float: left;
         margin-left: 20px;
     }
@@ -190,11 +194,11 @@ img {
 @media screen and (max-width: 768px) {
     .nav_bar {
         margin: 0px 20px 0px 20px;
-        width: 740px;
+        width: 90%;
     }
 
     nav {
-        padding-right: 60px;
+        padding-right: 0px;
     }
 
     .main {
@@ -205,7 +209,7 @@ img {
 
     .col {
         box-sizing: border-box;
-        width: 280px;
+        width: 290px;
     }
 
     form {
@@ -215,6 +219,53 @@ img {
 }
 
 @media screen and (max-width: 640px) {
+    .nav_bar {
+        margin: 0px;
+        width: 93%;
+        position: static;
+    }
 
+    .name {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    nav {
+        padding-right: 0px;
+        text-align: center;
+        width: 100%;
+        clear: both;
+    }
+
+    a {
+        padding: 20px;
+    }
+
+    .main {
+        width: 91%;
+        margin-bottom: 100px;
+    }
+
+    .col {
+        box-sizing: border-box;
+        width: 90%;
+        margin-right: 30px;
+        display: block;
+    }
+
+    form {
+        box-sizing: border-box;
+        width: 88%;
+    }
+
+    img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .bio_pic {
+        width: 150px;
+    }
 }
 
